@@ -1,0 +1,15 @@
+PAY_VALUE:pay,dpp,payendyear,<缴费,<交费
+PAY_PERIOD:ppp,pay_period,colyear
+INSURE_VALUE:ep,insure,<保障,保险期间
+INSURE_MODE:insure_mode
+ENSURE_PERIOD:bp,bentyear
+DRAW_AGE:draw_age
+DRAW_MODE_VALUE:draw_mode
+DRAW_PERIOD_VALUE:draw_period
+INSURE_PERIOD:linenum
+LINE:linenum
+AGE:age,年龄,投保年龄
+GENDER_CODE:gender,sex,性别
+SMOKE:smoking,smoke,[吸烟]
+OCCUPATION_CATEGORY:occupation_level,occupation
+KEY:<KEY
