@@ -20,10 +20,10 @@ public class DataMainGenerator {
     }
 
     public static void main(String[] args) throws Exception {
-        if (args == null) {
+        if (args == null || args.length == 0) {
             System.err.println("Invalid args!");
-            System.err.println("Example: java -jar DataMainGenerator.jar `路径` `id`");
-            System.err.println("Example: java -jar DataMainGenerator.jar `路径`");
+            System.err.println("Usage 1: java -jar DataMainGenerator.jar `路径` `id`");
+            System.err.println("Usage 2: java -jar DataMainGenerator.jar `路径`");
             return;
         }
         File csvPath = new File(args[0]);
